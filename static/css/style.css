@@ -60,3 +60,30 @@ form aside {
 .social-links a:hover {
   opacity: 1;
 }
+
+.twitter-typeahead {
+  width: 100%;
+}
+
+input.typeahead-orgs {
+  margin-bottom: 0;
+}
+
+.tt-dropdown-menu {
+  background: #f0f0f0;
+  width: 100%;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.tt-dropdown-menu p {
+  margin: 0;
+  padding: 8px 4px;
+  font-size: smaller;
+}
+
+.tt-dropdown-menu .tt-is-under-cursor {
+  color: white;
+  background: #0079A1;
+}

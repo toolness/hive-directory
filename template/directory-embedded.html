@@ -42,8 +42,14 @@
   </ul>
   {% if sheet.canView %}
     {% if row.val('Contact 1') %}
-    <h4 class="subheader">Contact</h4>
+    <h4 class="subheader">Contacts</h4>
     <div class="org-contact">{{ row.val('Contact 1') }}</div>
+      {% if row.val('Contact 2') %}
+      <div class="org-contact">{{ row.val('Contact 2') }}</div>
+      {% endif %}
+      {% if row.val('Contact 3') %}
+      <div class="org-contact">{{ row.val('Contact 3') }}</div>
+      {% endif %}
     {% endif %}
     {% if row.val('Mailing Address') %}
     <h4 class="subheader">Mailing Address</h4>

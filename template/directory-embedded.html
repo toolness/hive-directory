@@ -50,6 +50,9 @@
       {% if row.val('Contact 3') %}
       <div class="org-contact">{{ row.val('Contact 3') }}</div>
       {% endif %}
+      {% if row.val('Other Contacts') %}
+      <div class="org-contact">{{ row.val('Other Contacts') }}</div>
+      {% endif %}
     {% endif %}
     {% if row.val('Mailing Address') %}
     <h4 class="subheader">Mailing Address</h4>

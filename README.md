@@ -115,5 +115,5 @@ be rejected.
 
   [PhantomJS]: http://phantomjs.org/
   [stubbyid]: http://toolness.github.io/stubbyid/
-  [mocha(1)]: http://visionmedia.github.io/mocha/#usage
+  [mocha(1)]: http://mochajs.org/#usage
   [jscoverage]: https://github.com/visionmedia/node-jscoverage
